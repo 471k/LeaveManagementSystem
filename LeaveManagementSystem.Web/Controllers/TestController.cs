@@ -14,5 +14,5 @@ namespace LeaveManagementSystem.Web.Controllers
             };
             return View(data);
         }
-    }
+    }    
 }
