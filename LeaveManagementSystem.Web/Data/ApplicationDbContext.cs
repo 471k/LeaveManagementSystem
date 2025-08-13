@@ -1,5 +1,4 @@
-﻿using LeaveManagementSystem.Web.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace LeaveManagementSystem.Web.Data

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace LeaveManagementSystem.Web.Models
+namespace LeaveManagementSystem.Web.Data
 {
     public class LeaveType
     {
