@@ -63,5 +63,34 @@ namespace LeaveManagementSystem.Web.Data
         }
 
         public DbSet<LeaveType> LeaveTypes{ get; set; }
+        public DbSet<LeaveAllocation> LeaveAllocations { get; set; }
+        public DbSet<Period> Periods { get; set; }
+
+        /*
+            email: employee1@localhost.com
+            firstname: Employee
+            lastname: Oneeeee
+            password: Employ33.
+
+            email: alloc_test@localhost.com
+            firstname: allocation
+            lastname: test_user
+            password: Employ33.
+                                          
+            email: supervisor@localhost.com
+            firstname: Supervisor
+            lastname: Oneeeee
+            password: Sup3rvisor.
+
+
+            email: admin@localhost.com
+            firstname: System
+            lastname: Administrator
+            password: P@ssword1
+
+
+            ----------
+
+         */
     }
 }
