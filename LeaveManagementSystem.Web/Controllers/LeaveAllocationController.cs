@@ -1,12 +1,8 @@
-﻿using LeaveManagementSystem.Web.Models.LeaveAllocations;
-using LeaveManagementSystem.Web.Services.LeaveAllocations;
-using LeaveManagementSystem.Web.Services.LeaveTypes;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
-using SQLitePCL;
-using System.Threading.Tasks;
+﻿using LeaveManagementSystem.Application.Models.LeaveAllocations;
+using LeaveManagementSystem.Application.Services.LeaveAllocations;
+using LeaveManagementSystem.Application.Services.LeaveTypes;
 
-namespace LeaveManagementSystem.Web.Controllers
+namespace LeaveManagementSystem.Application.Controllers
 {
     [Authorize]
     public class LeaveAllocationController(

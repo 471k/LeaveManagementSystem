@@ -3,7 +3,7 @@
 #nullable disable
 
 
-namespace LeaveManagementSystem.Web.Areas.Identity.Pages.Account
+namespace LeaveManagementSystem.Application.Areas.Identity.Pages.Account
 {
     public class LoginModel : PageModel
     {
