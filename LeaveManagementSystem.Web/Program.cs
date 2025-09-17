@@ -3,6 +3,13 @@ using Serilog;
 
 
 var builder = WebApplication.CreateBuilder(args);
+builder.WebHost.UseUrls("http://localhost:5195", "https://localhost:7018");
+/**
+ * Run in Production environment
+ * 
+ * command prompt: ASPNETCORE_ENVIRONMENT=Production dotnet LeaveManagementSystem.Web.dll
+ */
+
 
 DataServicesRegistration.AddDataServices(builder.Services, builder.Configuration);
 ApplicationServicesRegistration.AddApplicationServices(builder.Services);

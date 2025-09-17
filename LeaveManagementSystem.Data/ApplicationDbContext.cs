@@ -56,7 +56,27 @@ namespace LeaveManagementSystem.Data
             firstname: System
             lastname: Administrator
             password: P@ssword1
-
+                                     
+        
+            email: testemailui@localhost
+            firstname: testemailui
+            lastname: emailui
+            password: P@ssword1      
+        
+            email: test2emailui@localhost
+            firstname: test2emailui
+            lastname: emailui
+            password: P@ssword1        
+        
+            email: test3emailui@localhost
+            firstname: test3emailui
+            lastname: emailui
+            password: P@ssword1
+        
+            email: test4emailui@localhost
+            firstname: test4emailui
+            lastname: emailui
+            password: P@ssword1
 
             ----------
 
